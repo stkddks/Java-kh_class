@@ -8,10 +8,10 @@ public class Server {
 	public static void main(String[] args) {
 		ServerSocket serverSocket = null;
 		try{
-			serverSocket = new ServerSocket(9000);
+			serverSocket = new ServerSocket(5000);
 			while(true){
-				Socket socket = serverSocket.accept();
-				Thread thread = new PerClientThread(socket);
+				Socket sock = serverSocket.accept();
+				Thread thread = new PerClientThread(sock);
 				thread.start();
 			}
 		} catch (Exception e){

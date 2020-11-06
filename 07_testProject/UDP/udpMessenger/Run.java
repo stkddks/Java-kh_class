@@ -11,7 +11,7 @@ public class Run {
 		
 		int myPort = Integer.parseInt(JOptionPane.showInputDialog("당신의 포트번호를입력하세요"));
 		int otherPort = Integer.parseInt(JOptionPane.showInputDialog("상대방 포트 번호를 입력하세요"));
-		int otherPort2 = Integer.parseInt(JOptionPane.showInputDialog("상대방2 포트 번호를 입력하세요"));
+//		int otherPort2 = Integer.parseInt(JOptionPane.showInputDialog("상대방2 포트 번호를 입력하세요"));
 		
 		Messenger a = new Messenger(myPort, otherPort);
 //		Messenger b = new Messenger(myPort, otherPort2);

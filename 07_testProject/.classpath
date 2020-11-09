@@ -5,5 +5,7 @@
 	<classpathentry kind="src" path="TCP"/>
 	<classpathentry kind="src" path="UDP"/>
 	<classpathentry kind="src" path="CHATTING"/>
+	<classpathentry kind="src" path="CHATTING_broadcasting"/>
+	<classpathentry kind="src" path="MISSION"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

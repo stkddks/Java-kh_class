@@ -29,7 +29,7 @@ public class Client {
 				
 				Scanner sc = new Scanner(System.in);
 				do{
-					System.out.print("´ëÈ­ ÀÔ·Â : ");
+					System.out.print("ëŒ€í™”ì…ë ¥: ");
 					String message = sc.nextLine();
 					pw.println(message);
 					pw.flush();

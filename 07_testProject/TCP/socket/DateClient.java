@@ -7,7 +7,7 @@ import java.net.Socket;
 public class DateClient {
 
    public static void main(String[] args) throws IOException {
-      Socket s = new Socket("192.168.20.62",9100);		
+      Socket s = new Socket("127.0.0.1",9100);		
       //주어진 IP address와 포트를 가지고 소켓 생성   //ip주소의 port항구로 들어간다  
       
       BufferedReader input = new BufferedReader(new InputStreamReader(s.getInputStream()));	// 서버의 데이터값을 받아옴

@@ -7,5 +7,6 @@
 	<classpathentry kind="src" path="CHATTING"/>
 	<classpathentry kind="src" path="CHATTING_broadcasting"/>
 	<classpathentry kind="src" path="MISSION"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
